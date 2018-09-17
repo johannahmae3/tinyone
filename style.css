@@ -1,0 +1,104 @@
+#top{
+    background-color:  rgb(253, 176, 33);
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 150px;
+}
+.main-nav li a{
+    color:black;
+    padding: 2px 15px;
+    text-decoration: none;
+    font-family: "PTSans";
+    font-size: 25px;
+    font-weight: bold;
+}
+#logo{
+    position: relative;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+#middle{
+background: white;
+}
+h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  text-align: center;
+}
+li{
+    display: inline-block;
+}
+#bottom{
+    background: black;
+}
+h2{
+    color:  rgb(253, 176, 33);
+    text-align: center;
+}
+p1{
+    color: gray;
+    padding-left: 300px;
+}
+p2{
+    color:gray;
+    padding-left: 400px;
+}
+p3{
+    color:black;
+    padding-left: 300px; 
+}
+p4{
+    color:black;
+    padding-left: 400px;
+}
+p5{
+    color: black;
+    font-weight: bold;
+    font-family: "Ptsans";
+    font-size: 22px;
+    
+}
+form{
+    padding-left: 250px;
+}
+#text{
+   color: gray;
+   border-radius:3px;
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 300px;
+   margin-top: 30px;
+}
+#submit{
+    background-color: #fcdb00;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+#icon{
+    padding-left: 600px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+#contact{
+padding-left: 100px;
+color: white;
+}
+#content{
+    padding: 30px;
+}
+#features{
+
+}
