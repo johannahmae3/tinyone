@@ -1,17 +1,25 @@
 #top{
     background-color:  yellow;
 }
-.main-nav li{
-    display: inline-block;
-}
-.main-nav{
+.nav{
+    position: relative;
+    bottom: 30px;
     float: right;
     list-style: none;
-    margin-top: 30px;
     margin-bottom: 30px;
-    padding-right: 150px;
 }
-.main-nav li a{
+.menu{
+    margin: 50px 0 0;
+}
+.menu a{
+    clear: right;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    line-height: 30px;
+}
+.nav a{
+    display: inline-block;
     color:black;
     padding: 2px 15px;
     text-decoration: none;
@@ -21,7 +29,7 @@
 }
 #logo{
     position: relative;
-    padding-left: 90px;
+    padding-left: 80px;
     padding-top: 20px;
 }
 #middle{
@@ -34,12 +42,10 @@ h1{
     text-align: center;
     margin-top: 100px;
 }
-li{
-    display: inline-block;
-}
 #bottom{
     background: black;
 }
+
 h2{
     color:  yellow;
     text-align: center;
@@ -49,7 +55,6 @@ h2{
     color: gray;
     margin: 0px;
     font-size: 15px;
-  
 }
 .para5{
     text-align: center;
@@ -86,6 +91,7 @@ form{
    padding-left: 10px;
    padding-right: 300px;
    margin-top: 30px;
+  
 }
 #submit{
     background-color: #fcdb00;
@@ -115,16 +121,16 @@ form{
 }
 #features1{
     margin-top: 50px;
-    margin-bottom: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
 #features{
-    padding-bottom: 150px;  
+    margin-bottom: 150px;
+    margin-left: 50px;  
 }
 #button{
     text-align: center;
-    margin: 50px;
+    margin: 30px;
 }
 #border{
     text-align: center;
@@ -133,3 +139,240 @@ form{
     text-align: center;
     margin-top: 30px;
 }
+.par{
+    margin: 0px 0px 0px 40px;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+.title{
+    margin: 10px 0px 0px 0px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+label{
+    margin: 0 0 0 0;
+    font-size: 25px;
+    line-height: 30px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle{
+    display: none;
+}
+li{
+    display: inline-block;
+}
+.ipad{
+    margin-left: 100px;
+}
+@media screen and (max-width: 320px){
+    
+.black{
+    width: 280px;
+}
+.white{
+    width: 280px;
+}
+#text{
+    color: gray;
+    border-radius:3px;
+    padding: 5px;
+    width: 288px;
+    height: 30px;
+    margin-top: 30px;
+ }
+ .ipad{
+     position: relative;
+     bottom: 400px;
+     margin-left: 10px;
+     height: 90%;
+     width: 90%;
+ }
+ .span{
+     position: relative;
+     top: 300px;
+ }
+ p{
+   font-size: 13px;
+ }
+ .para1{ 
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.para4{
+    text-align: center;
+    color: gray;
+    margin: 0px;
+    font-size: 13px;
+}
+.para5{
+    text-align: center;
+    color:gray;
+    margin: 0px;
+    font-size: 13px;
+}
+.para2{
+    text-align: center;
+    color:black;
+    margin: 0px;
+    font-size: 13px;
+}
+.para3{
+    text-align: center;
+    color:black;
+    margin: 0px;
+    font-size: 13px;  
+}
+#button{
+    margin: 10px 0px 5px 0px;
+}
+
+.menu{
+    text-align: center;
+    margin: 0 30px 0 0;
+    text-decoration: none;
+    display: none;
+}
+label{
+    display: block;
+}
+.menu a{
+    display: block;
+    margin: 0;
+    font-family: "PTSans";
+    font-size: 15px;
+    font-weight: bold;
+}
+#toggle:checked + .menu{
+    display:block;
+}
+a:hover{
+    background-color: gray;
+    opacity: 0.7;
+}
+
+ h1{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+   padding-left: 0;
+}
+h2{
+    color:  yellow;
+    text-align: center;
+    font-size: 20px;
+ 
+}
+#icon{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact{
+    color: white;
+    font-size: 13px;
+    margin: 3px;
+}
+#content{
+    margin: 0px;
+ }
+
+.par{
+    margin: 0px 0px 0px 30px;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+}
+.title{
+    margin: 10px 0px 0px 0px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: black;
+}
+#features1{
+    margin: 20px 0px 0px 0px;
+}
+#features{
+    margin: 0px 0px 20px 0px;  
+}
+#pic{
+height: 20px;
+}
+
+}
+@media screen and (max-width: 768px){
+    .black{
+        width: 280px;
+    }
+    .white{
+        width: 280px;
+    }
+    #button{
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    #border{
+        text-align: center;
+        margin: 0px;
+    }
+    #border2{
+        text-align: center;
+        margin: 30px 0px 0px 0px;
+    }
+    #features1{
+        margin: 50px 0px 0px 0px;
+    }
+    #features{
+        margin:0px 0px 20px 0px; 
+    }
+    h1{
+        margin: 15px 0px 0px 0px;
+    }
+    /* .ipad{
+        position: relative;
+        bottom: 400px;
+    }
+    .span{
+     position: relative;
+     top: 300px;
+ } */
+ #content{
+    margin: 0px;
+ }
+    .menu{
+        text-align: center;
+        margin: 0 30px 0 0;
+        text-decoration: none;
+        display: none;
+    }
+    label{
+        display: block;
+    }
+    .menu a{
+        display: block;
+        margin: 0;
+        font-family: "PTSans";
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #toggle:checked + .menu{
+        display:block;
+    }
+    a:hover{
+        background-color: gray;
+        opacity: 0.7;
+      
+    }
+
+}
+

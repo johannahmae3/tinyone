@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Tinyone</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 <div class="container-fluid" id="top">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-12 col-sm-12 col-md-3">
               <img src="img/logo.png" id="logo">
             </div>
-            <div class="col-xs-8">
-                <ul class="main-nav">
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Support</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Menu</a></li>
-                </ul>
+            <div class="col-xs-12 col-sm-12  col-md-9">
+                <div class="nav">
+                   <label for="toggle">&#9776</label>
+                   <input type="checkbox" id="toggle">
+                      <div class="menu">
+                        <a href="">Features</a>
+                        <a href="">Support</a>
+                        <a href="">Blog</a>
+                      </div>
+                 </div>
             </div>
         </div>
         <div class="row" >
-            <div class="col-xs-6" id="content">
-            <span>
-                <p class="para1">Inspire your inspiration</p class="para1"><br>
+            <div class="col-xs-12 col-sm-12 col-md-6" id="content">
+            <span class="span">
+                <p class="para1">Inspire your inspiration</p class="para1">
                 <p>Simple to use for your app, products showcase and your inspiration</p><br>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                 Praesent vitae eros eget tellus tristique bibendum.<br>
@@ -32,8 +38,8 @@
                 <img src="img/store-buttons.png">
             </span>
             </div>
-            <div class="col-xs-6">
-                    <img src="img/ipad.png">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                    <img src="img/ipad.png" class="ipad">
             </div>
             <div class="col-xs-12" id="button">
                 <img src="img/button3.png">
@@ -48,37 +54,66 @@
                <p class="para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus </p class="para2">
                <p class="para3">tristique bibendum. Donec rutrum sed sem quis venenatis.</p class="para3">
             <div class="row" id="border">
-                <img src="img/borderblack.png">
+                <img src="img/borderblack.png" class="black">
             </div>
          </div>
-        <div class="row" id="features1">
-            <div class="row">
-                <div class="col-xs-4"> 
-                  <img src="img/feature1.png"> 
+       
+          <div class="row"  id="features1">
+                <div class="col-xs-12 col-sm-12 col-md-3"> 
+                  <div class="title"><img src="img/feat1.png" id="pic">Fully Responsive</div>
+                  <div class="par">Lorem ipsum dolor sit amet,<br> 
+                    consectetur adipiscing elit.<br>
+                    Praesent vitae eros eget tellus<br>
+                    tristique bibendum.
+                  </div> 
                 </div>
-                <div class="col-xs-4"> 
-                  <img src="img/feature2.png"> 
+                <div class="col-xs-12 col-sm-12 col-md-3"> 
+                  <div class="title"><img src="img/feat2.png" id="pic">HTML3 & CSS3</div>
+                  <div class="par">Lorem ipsum dolor sit amet,<br> 
+                      consectetur adipiscing elit.<br>
+                      Praesent vitae eros eget tellus<br>
+                      tristique bibendum.
+                  </div>
                 </div>
-                <div class="col-xs-4"> 
-                  <img src="img/feature3.png"> 
+                <div class="col-xs-12 col-sm-12 col-md-3"> 
+                  <div class="title"><img src="img/feat3.png" id="pic">Fully Layered PSD</div>
+                  <div class="par">Lorem ipsum dolor sit amet,<br> 
+                    consectetur adipiscing elit.<br>
+                    Praesent vitae eros eget tellus<br>
+                    tristique bibendum.
+                 </div>
                </div>
            </div>
-        </div>
-            <div class="row" id="features">
-                <div class="row">
-                  <div class="col-xs-4"> 
-                    <img src="img/feature4.png"> 
+     
+          
+            <div class="row"id="features" >
+                  <div class="col-xs-12 col-sm-6 col-md-3"> 
+                    <div class="title"><img src="img/feat4.png" id="pic">Free to download</div>
+                    <div class="par">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipiscing elit.<br>
+                        Praesent vitae eros eget tellus<br>
+                        tristique bibendum.</div> 
                   </div>
-                  <div class="col-xs-4"> 
-                    <img src="img/feature5.png"> 
+                  <div class="col-xs-12 col-sm-12 col-md-3"> 
+                    <div class="title"><img src="img/feat5.png" id="pic">Font Awesome Icons</div> 
+                    <div class="par">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipiscing elit.<br>
+                        Praesent vitae eros eget tellus<br>
+                        tristique bibendum.
+                    </div>
                   </div>
-                <div class="col-xs-4"> 
-                    <img src="img/feature6.png"> 
+                <div class="col-xs-12 col-sm-12 col-md-3"> 
+                  <div class="title"><img src="img/feat6.png" id="pic">Email Template</div>
+                    <div class="par">Lorem ipsum dolor sit amet,<br> 
+                        consectetur adipiscing elit.<br>
+                        Praesent vitae eros eget tellus<br>
+                        tristique bibendum.
+                    </div>
                 </div>
               </div>
-         </div>
-    </div>
-</div>
+            </div>
+        </div>
+ 
 
 <div class="container-fluid" id="bottom">
     <div class="container">
@@ -93,57 +128,60 @@
             <input type="submit" value="SUBMIT" id="submit">
         </form>
         </div>
-    </div>
+   
     <div class="row" id="icon">
         <img src="img/fb.png">
         <img src="img/twitter.png">
         <img src="img/gmail.png">
         <img src="img/penterest.png">
-        <div>
-            <img src="img/borderwhite.png" id="border2">
-        </div> 
+        <div id="border2">
+            <img src="img/borderwhite.png" class="white">
+        </div>
     </div>
+</div>
     <div class="container" id="contact">
-     <div class="col-xs-3">
+      <div class="row">
+     <div class="col-xs-12 col-sm-12 col-md-3">
+    <ul>
         <li>HALOVIETNAM LTD<br>
-            66, Dang Van ngu, Dong Da<br>
-            Hanoi, Vietnam<br>
-            contact@halovietnam.com<br>
-            +844 35149182
-        </li>
+        66, Dang Van ngu, Dong Da <br>
+        Hanoi, Vietnam <br>
+        contact@halovietnam.com <br>
+        +844 35149182</li>
+    </ul>
       </div>
-    <div class="col-xs-2">
-        <li>
-            Example<br>
-            Shop<br>
-            License
-        </li>
+    <div class="col-xs-12 col-sm-12 col-md-2">
+    <ul>
+        <li>Example <br>
+            Shop <br>
+            License</li>
+    </ul>
     </div>
-    <div class="col-xs-2">
-        <li>
-            Contact<br>
-            About<br>
-            Privacy<br>
-            Term
-        </li>
+    <div class="col-xs-12 col-sm-12 col-md-2">
+        <ul>
+            <li>Contact <br>
+               About <br>
+               Privacy<br>
+               Term</li>
+        </ul>
     </div>
-    <div class="col-xs-2">
-        <li>
-            Download<br>
-            Support<br>
-            Documents<br>
-        </li>
+    <div class="col-xs-12 col-sm-12 col-md-2">
+        <ul>
+            <li>Download <br>
+                Support <br>
+                Documents</li>
+        </ul>
     </div>
-    <div class="col-xs-2">
-        <li>
-            Media<br>
-            Blog<br>
-            Forums<br>
-        </li>
+    <div class="col-xs-12 col-sm-12 col-md-2">
+        <ul>
+            <li>Media<br>
+                Blog<br>
+                Forums</li>
+        </ul>
     </div>
   </div>
+ </div>
 </div>
-
 
 </body>
 </html>
