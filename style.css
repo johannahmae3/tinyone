@@ -2,26 +2,11 @@
     background-color:  yellow;
 }
 .nav{
-    position: relative;
-    bottom: 30px;
-    float: right;
     list-style: none;
-    margin-bottom: 30px;
-}
-.menu{
-    margin: 50px 0 0;
-}
-.menu a{
-    clear: right;
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-    line-height: 30px;
 }
 .nav a{
     display: inline-block;
     color:black;
-    padding: 2px 15px;
     text-decoration: none;
     font-family: "PTSans";
     font-size: 25px;
@@ -29,8 +14,7 @@
 }
 #logo{
     position: relative;
-    padding-left: 80px;
-    padding-top: 20px;
+    bottom: 10px;
 }
 #middle{
 background: white;
@@ -186,14 +170,14 @@ li{
  }
  .ipad{
      position: relative;
-     bottom: 400px;
+     bottom: 350px;
      margin-left: 10px;
      height: 90%;
      width: 90%;
  }
  .span{
      position: relative;
-     top: 300px;
+     top: 400px;
  }
  p{
    font-size: 13px;
@@ -230,31 +214,6 @@ li{
 #button{
     margin: 10px 0px 5px 0px;
 }
-
-.menu{
-    text-align: center;
-    margin: 0 30px 0 0;
-    text-decoration: none;
-    display: none;
-}
-label{
-    display: block;
-}
-.menu a{
-    display: block;
-    margin: 0;
-    font-family: "PTSans";
-    font-size: 15px;
-    font-weight: bold;
-}
-#toggle:checked + .menu{
-    display:block;
-}
-a:hover{
-    background-color: gray;
-    opacity: 0.7;
-}
-
  h1{
     color: black;
     font-size: 20px;
@@ -263,9 +222,9 @@ a:hover{
     margin: 0px;
 }
 #logo{
-    height: 50px;
+    height: 30px;
     width: 100px;
-   padding-left: 0;
+    margin-top: 10px;
 }
 h2{
     color:  yellow;
@@ -305,17 +264,25 @@ h2{
 #features{
     margin: 0px 0px 20px 0px;  
 }
-#pic{
+.pic{
 height: 20px;
+}
+.navbar-toggle{
+    background-color: black;
+    opacity: 0.9;
+}
+li{
+    text-align: center;
+    font-size: 11px;
 }
 
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 990px){
     .black{
-        width: 280px;
+        width: 500px;
     }
     .white{
-        width: 280px;
+        width: 500px;
     }
     #button{
         text-align: center;
@@ -330,49 +297,33 @@ height: 20px;
         margin: 30px 0px 0px 0px;
     }
     #features1{
-        margin: 50px 0px 0px 0px;
+        margin: 50px 0px 0px 200px;
     }
     #features{
-        margin:0px 0px 20px 0px; 
+        margin:0px 0px 20px 200px; 
     }
     h1{
         margin: 15px 0px 0px 0px;
     }
-    /* .ipad{
+    .ipad{
         position: relative;
-        bottom: 400px;
+        bottom: 350px;
+        margin-left: 200px;
     }
     .span{
-     position: relative;
-     top: 300px;
- } */
- #content{
-    margin: 0px;
- }
-    .menu{
-        text-align: center;
-        margin: 0 30px 0 0;
-        text-decoration: none;
-        display: none;
+        position: relative;
+        top: 460px;
     }
-    label{
-        display: block;
+    .span p{
+        margin-left: 200px;
+        margin-right: 200px;
     }
-    .menu a{
-        display: block;
-        margin: 0;
-        font-family: "PTSans";
-        font-size: 15px;
-        font-weight: bold;
+    .span img{
+        margin-left: 250px;
+        
     }
-    #toggle:checked + .menu{
-        display:block;
+    #content{
+         margin: 0px;
     }
-    a:hover{
-        background-color: gray;
-        opacity: 0.7;
-      
-    }
-
 }
 

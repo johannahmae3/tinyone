@@ -8,24 +8,25 @@
 
 </head>
 <body>
+<div class="navbar navbar-default">
 <div class="container-fluid" id="top">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-3">
-              <img src="img/logo.png" id="logo">
-            </div>
-            <div class="col-xs-12 col-sm-12  col-md-9">
-                <div class="nav">
-                   <label for="toggle">&#9776</label>
-                   <input type="checkbox" id="toggle">
-                      <div class="menu">
-                        <a href="">Features</a>
-                        <a href="">Support</a>
-                        <a href="">Blog</a>
-                      </div>
-                 </div>
-            </div>
-        </div>
+        <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#navHeader">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+    <a href="" class="navbar-brand"><img src="img/logo.png"id="logo"></a> 
+      </div>
+      <div class="collapse navbar-collapse" id="navHeader">
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="">Features</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Blog</a></li>
+          </ul>
+          </div>
+      </div>
         <div class="row" >
             <div class="col-xs-12 col-sm-12 col-md-6" id="content">
             <span class="span">
@@ -33,9 +34,9 @@
                 <p>Simple to use for your app, products showcase and your inspiration</p><br>  
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                 Praesent vitae eros eget tellus tristique bibendum.<br>
-                Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor.<br>
+                Donec rutrum sed sem quis venenatis.<br> Proin viverra risus a eros volutpat tempor.<br>
                 In quis arcu et eros porta lobortis sit.</p>
-                <img src="img/store-buttons.png">
+                <img src="img/store-buttons.png" class="store-buttons">
             </span>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6">
@@ -57,10 +58,9 @@
                 <img src="img/borderblack.png" class="black">
             </div>
          </div>
-       
           <div class="row"  id="features1">
                 <div class="col-xs-12 col-sm-12 col-md-3"> 
-                  <div class="title"><img src="img/feat1.png" id="pic">Fully Responsive</div>
+                  <div class="title"><img src="img/feat1.png" class="pic">Fully Responsive</div>
                   <div class="par">Lorem ipsum dolor sit amet,<br> 
                     consectetur adipiscing elit.<br>
                     Praesent vitae eros eget tellus<br>
@@ -68,7 +68,7 @@
                   </div> 
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3"> 
-                  <div class="title"><img src="img/feat2.png" id="pic">HTML3 & CSS3</div>
+                  <div class="title"><img src="img/feat2.png" class="pic">HTML3 & CSS3</div>
                   <div class="par">Lorem ipsum dolor sit amet,<br> 
                       consectetur adipiscing elit.<br>
                       Praesent vitae eros eget tellus<br>
@@ -76,7 +76,7 @@
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3"> 
-                  <div class="title"><img src="img/feat3.png" id="pic">Fully Layered PSD</div>
+                  <div class="title"><img src="img/feat3.png" class="pic">Fully Layered PSD</div>
                   <div class="par">Lorem ipsum dolor sit amet,<br> 
                     consectetur adipiscing elit.<br>
                     Praesent vitae eros eget tellus<br>
@@ -87,15 +87,16 @@
      
           
             <div class="row"id="features" >
-                  <div class="col-xs-12 col-sm-6 col-md-3"> 
-                    <div class="title"><img src="img/feat4.png" id="pic">Free to download</div>
+                  <div class="col-xs-12 col-sm-12 col-md-3"> 
+                    <div class="title"><img src="img/feat4.png" class="pic">Free to download</div>
                     <div class="par">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipiscing elit.<br>
                         Praesent vitae eros eget tellus<br>
-                        tristique bibendum.</div> 
+                        tristique bibendum.
+                    </div> 
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-3"> 
-                    <div class="title"><img src="img/feat5.png" id="pic">Font Awesome Icons</div> 
+                    <div class="title"><img src="img/feat5.png" class="pic">Font Awesome Icons</div> 
                     <div class="par">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipiscing elit.<br>
                         Praesent vitae eros eget tellus<br>
@@ -103,7 +104,7 @@
                     </div>
                   </div>
                 <div class="col-xs-12 col-sm-12 col-md-3"> 
-                  <div class="title"><img src="img/feat6.png" id="pic">Email Template</div>
+                  <div class="title"><img src="img/feat6.png" class="pic">Email Template</div>
                     <div class="par">Lorem ipsum dolor sit amet,<br> 
                         consectetur adipiscing elit.<br>
                         Praesent vitae eros eget tellus<br>
@@ -113,6 +114,7 @@
               </div>
             </div>
         </div>
+
  
 
 <div class="container-fluid" id="bottom">
@@ -147,14 +149,16 @@
         66, Dang Van ngu, Dong Da <br>
         Hanoi, Vietnam <br>
         contact@halovietnam.com <br>
-        +844 35149182</li>
+        +844 35149182
+    </li>
     </ul>
       </div>
     <div class="col-xs-12 col-sm-12 col-md-2">
     <ul>
         <li>Example <br>
             Shop <br>
-            License</li>
+            License
+        </li>
     </ul>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2">
@@ -162,26 +166,31 @@
             <li>Contact <br>
                About <br>
                Privacy<br>
-               Term</li>
+               Term
+            </li>
         </ul>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2">
         <ul>
             <li>Download <br>
                 Support <br>
-                Documents</li>
+                Documents
+            
+        </li>
         </ul>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-2">
         <ul>
             <li>Media<br>
                 Blog<br>
-                Forums</li>
+                Forums
+            </li>
         </ul>
     </div>
   </div>
  </div>
 </div>
-
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
